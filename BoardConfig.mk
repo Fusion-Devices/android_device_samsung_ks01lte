@@ -165,3 +165,9 @@ BOARD_SEPOLICY_UNION += \
     ueventd.te \
     vold.te \
     wpa.te
+
+# TWRP
+DEVICE_RESOLUTION := 1080x1920
+
+#SaberMod
+-include vendor/fusion/config/sm.mk
