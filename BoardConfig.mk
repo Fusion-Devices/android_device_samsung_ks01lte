@@ -34,8 +34,8 @@ BOARD_CUSTOM_BOOTIMG_MK := device/samsung/ks01lte/mkbootimg.mk
 # Fusion Optimizations
 FUSION_OPT := true
 FUSION_O3 := true
-FUSION_STRICT := true
-FUSION_OFAST := true
+FUSION_STRICT := false
+FUSION_OFAST := false
 FUSION_KRAIT := true
 FUSION_GRAPHITE := true
 FUSION_PIPE := true
