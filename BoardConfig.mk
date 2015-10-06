@@ -50,6 +50,7 @@ AUDIO_FEATURE_DISABLED_ANC_HEADSET := true
 AUDIO_FEATURE_DISABLED_MULTI_VOICE_SESSIONS := true
 AUDIO_FEATURE_DISABLED_FM := true
 AUDIO_FEATURE_ENABLED_HWDEP_CAL := true
+AUDIO_FEATURE_ENABLED_NEW_SAMPLE_RATE := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_BCM := true
@@ -139,6 +140,7 @@ BOARD_SEPOLICY_DIRS += device/samsung/ks01lte/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     bluetooth.te \
+    bootanim.te \
     file_contexts \
     file.te \
     genfs_contexts \
